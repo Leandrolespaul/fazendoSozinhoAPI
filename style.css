@@ -1,0 +1,63 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+
+
+header {
+    background-color: blue;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    color: white;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+form {
+    background-color: #52525b;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    width: 300px;
+    display: flex;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.div-input-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.label {
+    padding: 5px;
+}
+
+
+
